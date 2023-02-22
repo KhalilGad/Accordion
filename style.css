@@ -1,0 +1,18 @@
+ .box{
+     width: 1000px;
+     height: 500px;
+     margin: 100px auto;
+     overflow: hidden;
+     
+ }
+ .box1{
+     width: 200px;
+     float: left;
+     transition:all 0.5s;
+      }
+      .box:hover .box1  { 
+          width:100px;
+      }
+      .box .box1:hover{
+          width: 600px;
+      }
